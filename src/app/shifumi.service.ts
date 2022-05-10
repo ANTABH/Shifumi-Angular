@@ -19,12 +19,14 @@ export class shifumiService {
     var joueur1bouton = document.getElementById('bouton');
     var contre = document.getElementById('contre');
     var VS = document.getElementById('VS');
+    var jeux = document.getElementById('jeux');
 
     pseudoInput1?.classList.add('cacher');
     pseudoInput2?.classList.add('cacher');
     joueur1bouton?.classList.add('cacher');
     contre?.classList.remove('contre');
     VS?.classList.remove('contre');
+    jeux?.classList.remove('jeux');
 
 
   }

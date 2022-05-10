@@ -1,3 +1,8 @@
+.jeux{
+  visibility: hidden;
+}
+
+
 .col-sm{
     position: absolute;
     top: 10%;
@@ -13,10 +18,9 @@
  .pseudoInput1{
    position: absolute;
    z-index: 1;
-   width: 5em;
-   height: 1em;
-   top: 2%;
-   left: 5%;
+   width: 9em;
+   bottom: 55%;
+   left: 41%;
  }
 .cacher{
   visibility: hidden;
@@ -29,15 +33,14 @@
  .pseudoInput2{
   position: absolute;
    z-index: 2;
-   width: 5em;
-   height: 1em;
-   top: 2%;
-   right: 5%;
+   width: 9em;
+   bottom: 70%;
+   left: 41%;
  }
 
 .ValiderPseudo{
   position: absolute;
-  top: 1%;
+  bottom: 40%;
   left: 41%;
   z-index: 1;
 }
