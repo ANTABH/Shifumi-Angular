@@ -1,5 +1,5 @@
 # Projet
-
+**Le CSS est adapté pour les écrans de 24 pouces en 16:9 1920x1080p**
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
 Vidéo de démonstration du Shifumi avec Angular (cliquez sur l'image)
