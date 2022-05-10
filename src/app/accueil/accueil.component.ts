@@ -11,7 +11,7 @@ export class AccueilComponent implements OnInit {
   title = 'projet';
   constructor(private router:Router){}
 
-
+// Tentative de récuperer les pseudos des joueurs avec les components père-fils mais sans succès.
 @Output()  sendRequestofather = new EventEmitter(); 
 
 
