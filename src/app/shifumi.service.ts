@@ -11,6 +11,23 @@ export class shifumiService {
 
     return Math.floor(Math.random() * 3);
   }
+
+  cacher(){
+
+    var pseudoInput1 = document.getElementById('pseudoInput1');
+    var pseudoInput2 = document.getElementById('pseudoInput2');
+    var joueur1bouton = document.getElementById('bouton');
+    var contre = document.getElementById('contre');
+    var VS = document.getElementById('VS');
+
+    pseudoInput1?.classList.add('cacher');
+    pseudoInput2?.classList.add('cacher');
+    joueur1bouton?.classList.add('cacher');
+    contre?.classList.remove('contre');
+    VS?.classList.remove('contre');
+
+
+  }
   Joueur1Filtre(){
 
     var joueur1 = document.getElementById('joueur1');

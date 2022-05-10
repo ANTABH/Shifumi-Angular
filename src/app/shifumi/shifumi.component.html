@@ -1,6 +1,12 @@
-{{pseudo1}}{{pseudo2}}
-<input type="text" id="search" #joueur1>
-        <input type="text" id="search" #joueur2  (keyup)="send(joueur1.value,joueur2.value);">
+<input class="pseudoInput1" type="text" id="pseudoInput1" #joueur1>
+<br>
+<input class="pseudoInput2" type="text" id="pseudoInput2" #joueur2>
+<button id="bouton" class="ValiderPseudo" (click)="send(joueur1.value,joueur2.value);">Valider les pseudos</button>
+
+<div class="contre" id="contre" style="position: absolute; top: 2%; right: 0%; left: 0%;">
+{{pseudo1}} contre {{pseudo2}}
+</div>
+
 <!-- colonne des choix du joueur 1 -->
 <div id="row" class="row">
   <div id="joueur1" class="col-sm">
@@ -31,7 +37,10 @@
     </div>
   
   <!-- image du VS -->
-  <img id="VS" class="VS" src="../../assets/VS.png" alt="">
+  <img id="VS" class="contre" src="../../assets/VS.png" alt="" style="position: absolute;
+  top: 19%;
+  left: 41%;
+  width: 11em;">
 
   <!-- Les deux messages des résultats pour les deux joueurs (Gagné !, Perdue !, Égalité !) -->
   <div class="msg-resultat1"> {{ResultatJoueur1}} </div>

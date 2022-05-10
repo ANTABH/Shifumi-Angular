@@ -15,11 +15,13 @@ pseudo1!: string;
 pseudo2!: string;
 Joueur1! : string;
 Joueur2! : string;
+
 send(Joueur1: string,Joueur2: string){
   this.pseudo1 = Joueur1;
   this.pseudo2 = Joueur2;
-
+  this.shifumiService.cacher();
 }
+
   cheminImage: any = "../../assets/bot.png";
   constructor(private shifumiService: shifumiService) { }
 
