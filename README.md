@@ -8,7 +8,7 @@ Vidéo de démonstration du Shifumi avec Angular (cliquez sur l'image)
 
 Powerpoint de présentation de l'application:
 
-(https://docs.google.com/presentation/d/13dwpluqBBqiEkbRvQrmrDsCmyaUfdTM5DLIam1QpKww/edit?usp=sharing)
+https://docs.google.com/presentation/d/13dwpluqBBqiEkbRvQrmrDsCmyaUfdTM5DLIam1QpKww/edit?usp=sharing
 
 
 
